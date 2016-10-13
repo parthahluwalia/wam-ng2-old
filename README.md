@@ -1,2 +1,2 @@
 # wam-ng2
-WebAppMaker FrontEnd Component - Angular2
+WebAppMakerdjnk FrontEnd Component - Angular2
