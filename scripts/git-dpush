@@ -1,0 +1,5 @@
+#!/bin/sh
+
+git push
+cd ide
+git push
