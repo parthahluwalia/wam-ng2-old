@@ -8,6 +8,7 @@
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.15.0",
     "cookie-parser": "^1.4.1",
+    "del": "^2.2.2",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
     "express-session": "^1.13.0",
@@ -28,7 +29,6 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compileUi" : "gulp compileUi",
     "start": "gulp run; node server.js"
   },
   "repository": {
