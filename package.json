@@ -11,6 +11,9 @@
     "ejs": "^2.4.1",
     "express": "^4.13.4",
     "express-session": "^1.13.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.0.2",
+    "merge2": "^1.0.2",
     "mongojs": "^2.3.0",
     "mongoose": "^4.4.7",
     "multer": "^1.1.0",
@@ -19,12 +22,14 @@
     "passport-google-oauth": "^1.0.0",
     "passport-local": "^1.0.0",
     "passport-twitter": "^1.0.4",
-    "q": "^1.4.1"
+    "q": "^1.4.1",
+    "typescript": "^2.0.3"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "compileUi" : "gulp compileUi",
+    "start": "gulp run; node server.js"
   },
   "repository": {
     "type": "git",
